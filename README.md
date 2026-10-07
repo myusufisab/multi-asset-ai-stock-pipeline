@@ -4,6 +4,8 @@ I work on strong machine learning setups and fast backend data pipelines. Instea
 
 I made this project from the ground up. I wanted to see what slows real software down. I worked on things like fast network data loading with multiple threads, API rate limits on exchange servers, and explainability that is not just linear.
 
+(PS: I am not an expert in markets in general i just used some ml techniques to noisy market data to predict so i am open to learning more about the market and how it works.)
+
 Core tools I used:
 - Python
 - Pandas
