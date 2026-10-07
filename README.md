@@ -18,6 +18,8 @@ Main areas I focus on:
 - Predictive MLOps
 
 Alright Now how does this work
+- First install all the required libraries (pip install pandas yfinance gnews torch transformers scikit-learn joblib numpy
+)
 - Copy the files train_model.py and run_terminal.py and put it in a folder
 - Run the train_model.py and wait for it to finish training
 - And finally open run_terminal.py in an editor and find this line
