@@ -22,7 +22,7 @@ Alright Now how does this work
 - Run the train_model.py and wait for it to finish training
 - And finally open run_terminal.py in an editor and find this line
 - if __name__ == "__main__":
-    # Define a list of different global companies you want to evaluate
+   
     portfolio = ["AMZN"]
     
     print(f" Initializing AI Analysis Pipeline for {len(portfolio)} assets...")
