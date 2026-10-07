@@ -17,5 +17,24 @@ Main areas I focus on:
 - Backend engineering
 - Predictive MLOps
 
+Alright Now how does this work
+- Copy the files train_model.py and run_terminal.py and put it in a folder
+- Run the train_model.py and wait for it to finish training
+- And finally open run_terminal.py in an editor and find this line
+- if __name__ == "__main__":
+    # Define a list of different global companies you want to evaluate
+    portfolio = ["AMZN"]
+    
+    print(f" Initializing AI Analysis Pipeline for {len(portfolio)} assets...")
+    
+    for company_ticker in portfolio:
+        try:
+            run_pure_pipeline(company_ticker)
+        except Exception as e:
+            print(f" Failed to process ticker {company_ticker}. Error: {e}")
+  - Change the portfolio parameter (In this case Amazon(AMZN)) to any relevant stock market companies
+  - Run the run_terminal.py file and look at the results
+
+
 If you want to reach me:
 m.yusuf.isab@gmail.com
